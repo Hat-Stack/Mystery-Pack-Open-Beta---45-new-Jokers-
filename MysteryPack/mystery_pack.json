@@ -1,0 +1,13 @@
+{
+    "id" : "mystery_pack",
+    "name" : "Mystery Pack",
+    "author" : ["Hat Stack"],
+    "description" : "A Vanilla+ mod, currently with 45 Jokers that don't break Balatro, but still feel unique. All art by Hat Stack. Please check the sheet on the github page for all currently added Jokers, future additions, and specific credits for every Joker.",
+    "prefix" : "mypa",
+    "main_file" : "main.lua",
+    "priority" : 1,
+    "badge_colour" : "8a71e1",
+    "badge_text_colour" : "e6dffd",
+    "display_name" : "Mystery Pack",
+    "version" : "1.0.0",
+}

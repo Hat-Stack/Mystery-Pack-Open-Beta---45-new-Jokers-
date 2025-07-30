@@ -1,0 +1,17 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = 'VOUCHER = HEX("cb724c"),'
+position = "after"
+match_indent = true
+payload = '''
+
+MYPA_PINK = HEX("F7a8b8"),
+MYPA_TEAL = HEX("03fdfc"),
+MYPA_VIRTUAL = HEX("ef0000"),
+
+'''
