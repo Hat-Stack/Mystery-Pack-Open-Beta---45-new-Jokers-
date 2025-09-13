@@ -113,9 +113,9 @@ return {
 			j_mypa_cd_album = {
 				name = "CD Album",
 				text = {
-					"Last scored card gives {C:chips}+#1#{}",
-					"if played hand contains",
-					"a {C:attention}Two Pair{}"
+					"Last scored card gives",
+					"{C:chips}+#1#{} chips if played hand",
+					"contains a {C:attention}Two Pair{}"
 				}
 			},
 			j_mypa_circuit_board = {
@@ -186,8 +186,8 @@ return {
 			j_mypa_draw_4_card = {
 				name = "Draw 4 Card",
 				text = {
-					"{C:attention}+#1#{} hand size after hand",
-					"contains {C:attention}#2#{} cards in",
+					"{C:attention}+#1#{} hand size after played",
+					"hand contains {C:attention}#2#{} cards in",
 					"{C:attention}#3#{} {C:inactive}[#4#]{} separate rounds",
 					"{C:inactive}(Currently {C:attention}+#5#{C:inactive}){}"
 				}
@@ -231,7 +231,7 @@ return {
 			j_mypa_infinite_chocolate = {
 				name = "Infinite Chocolate",
 				text = {
-					"When a card is {C:attention}destroyed{}",
+					"When a card is {C:attention}destroyed{},",
 					"create {C:attention}#1#{} copies of it"
 				}
 			},
@@ -287,8 +287,8 @@ return {
 			j_mypa_phantomancer = {
 				name = "Phantomancer",
 				text = {
-					"Create a {C:spectral}Spectral{} Card",
-					"when {C:attention}boss blind{} defeated",
+					"Create a {C:spectral}Spectral{} Card when",
+					"a {C:attention}boss blind{} is defeated",
 					"{C:inactive}(Must have room){}"
 				}
 			},
